@@ -118,3 +118,9 @@
 .steel{
     background-color: var(--color-steel);
 }
+
+@media(max-width:768px) {
+    .card-list-pokemon{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

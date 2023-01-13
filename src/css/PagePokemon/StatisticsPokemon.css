@@ -44,3 +44,13 @@
         width: 100%;
     }
 }
+
+@media (max-width:768px){
+    .container-stats {
+        gap: 20px;
+        width: calc(100% - 50px);
+    }
+    .container-stats h1{
+        text-align: center;
+    }
+}
