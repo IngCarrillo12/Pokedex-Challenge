@@ -1,0 +1,14 @@
+.container-filter{
+    display: flex;
+    margin-bottom: 20px;
+}
+.icon-filter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
