@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import {PokemonList, FilterBar} from '../components'
-import { PokemonContext } from '../context/pokemoncontext'
+import { PokemonContext } from '../context/PokemonContext'
 export const HomePage = () => {
   const { btnCargarMas, active, setactive, hiddenCargarMas} = useContext(PokemonContext)
   return (

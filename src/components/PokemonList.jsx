@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { PokemonContext } from '../context/pokemoncontext'
+import { PokemonContext } from '../context/PokemonContext'
 import { CardPokemon } from '../components/CardPokemon'
 import { Loader } from './Loader'
 export const PokemonList = () => {

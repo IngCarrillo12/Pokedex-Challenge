@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { PokemonContext } from '../context/pokemoncontext'
+import { PokemonContext } from '../context/PokemonContext'
 import { Loader } from '../components/Loader'
 export const PokemonPage = () => {
   const { getPokemonId } = useContext(PokemonContext)

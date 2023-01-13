@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { PokemonContext } from './pokemoncontext'
+import { PokemonContext } from './PokemonContext'
 import { useEffect } from 'react'
 import { useForm } from '../hook/useForm'
 
